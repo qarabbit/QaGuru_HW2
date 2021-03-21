@@ -58,7 +58,7 @@ public class StudentRegistrationForm {
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOption("November");
         $(".react-datepicker__year-select").selectOptionByValue("1996");
-        $$(".react-datepicker__day--001").first().click();
+        $(".react-datepicker__day--001").click();
 
         //Выбор штата и города через дропдаун
         $("#state").click();
